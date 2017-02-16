@@ -1,0 +1,61 @@
+.example-card {
+  width: 250px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.android-wear-section {
+  position: relative;
+  background: url('../assets/images/iceland.png') center top no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.android-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+
+.android-wear-band-text {
+  max-width: 800px;
+  margin-left: 10%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.android-wear-band-text p {
+  padding-top: 8px;
+}
+
+.android-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+.android-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+  color: #888888;
+}
+
+.android-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+
+

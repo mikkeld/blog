@@ -1,0 +1,16 @@
+.example-card {
+  width: 250px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.section-title {
+  margin-left: 12px;
+  padding-bottom: 16px;
+  color: #888888;
+}
+
+.android-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}

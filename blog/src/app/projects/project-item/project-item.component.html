@@ -1,12 +1,13 @@
 <md-card class="example-card">
-  <img md-card-image src="../../../assets/images/more-from-1.png"/>
-  <md-card-title><h4>{{project.title}}</h4></md-card-title>
-  <md-card-content>
-      <span class="mdl-typography--font-light mdl-typography--subhead">
-        {{project.content}}
-      </span>
-  </md-card-content>
-  <md-card-actions>
-    <a md-button routerLink="." class="android-link">LEARN MORE</a>
-  </md-card-actions>
+  <img md-card-image [src]="project.imageUrl"/>
+      <md-card-title><h4>{{project.title}}</h4></md-card-title>
+      <md-card-content>
+          <span class="mdl-typography--font-light mdl-typography--subhead">
+            {{project.content}}
+          </span>
+      </md-card-content>
+      <md-card-actions>
+        <a md-button href="https://friendlychat-61656.firebaseapp.com" target="_blank" class="android-link">SEE IT LIVE</a>
+      </md-card-actions>
 </md-card>
+

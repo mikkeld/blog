@@ -10,6 +10,14 @@
   color: #888888;
 }
 
+.book-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:160px;
+  width:106px;
+}
+
 .android-link {
   text-decoration: none;
   color: #8bc34a !important;

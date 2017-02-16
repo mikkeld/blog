@@ -10,7 +10,12 @@ export class BookItemComponent implements OnInit, Input {
 
   @Input() book: Book;
 
-  constructor() { }
+  getLink(): string {
+    return `http://images.amazon.com/images/P/${this.book.isbn}.01.20TRZZZZ.jpg`;
+  }
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
